@@ -1,5 +1,4 @@
 var sound = new Audio("sparkle.mp3");
-sound.play();
 
 function addWebsite()
 {
@@ -12,9 +11,10 @@ function addWebsite()
 
 var amount = 0;
 
-
 function counter()
 {
     amount++;
     document.getElementById("numCount").innerHTML = amount;
 }
+
+sound.play();
