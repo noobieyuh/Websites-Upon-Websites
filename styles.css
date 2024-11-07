@@ -1,0 +1,37 @@
+h1
+{
+    color:white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2
+{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p
+{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+button
+{
+    width: 1000px; 
+    height: 300px;
+    border-radius: 12px;
+    border-color:pink;
+    
+}
+
+iframe
+{
+    border: none;
+}
