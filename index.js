@@ -6,3 +6,12 @@ function addWebsite()
     newFrame.width = 1920;
     document.body.appendChild(newFrame);
 }
+
+var amount = 0;
+
+
+function counter()
+{
+    amount++;
+    document.getElementById("numCount").innerHTML = amount;
+}

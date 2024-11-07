@@ -5,19 +5,27 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Websites Upon Websites!</title>
     <link rel = "stylesheet" href = "styles.css">
+    <link rel = "icon" type = "image/x-icon" href = "favicon.png">
 </head>
 <body style = "background-color:thistle;">
     <h1 class = "titlePage"><u>Websites Upon Websites...?</u></h1>
+    <div class = "container">
+        <div class = "makeCenter">
+            <img src = "mochi-cat.gif">
+        </div>
+    </div>
+    <br>
     <h2>So, what is this place?</h2>
     <div></div>
     <p>In short, Websites Upon Websites is a fun interactive project! See how many times you could have (technically) a website inside of a website!</p>
-    <p>(Just learned that iframes can't have iframes... I think...)</p>
+    <p>(Just learned that iframes can't have a lot of iframes... I think...)</p>
     <p>( The website still works just not as well as I hoped :C )</p>
     <script src = "index.js"></script>
     <div class = "container">
         <div class = "makeCenter">
-            <button onclick = "addWebsite()">Interact with me to make a new website! (Spam me)</button>
+            <button onclick = "addWebsite(), counter()">Interact with me to make a new website! (Spam me)</button>
         </div>
     </div>
+    <p>Number of websites: <a id = "numCount">0</a></p>
 </body>
 </html>
