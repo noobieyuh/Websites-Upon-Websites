@@ -24,14 +24,31 @@ p
 
 button
 {
-    width: 1000px; 
-    height: 300px;
+    width: 300px; 
+    height: 100px;
     border-radius: 12px;
-    border-color:pink;
-    
+    border-color:azure;
+    background-color: pink;
+    color:white;
 }
 
 iframe
 {
     border: none;
+}
+
+.container
+{
+    height: 100px;
+    position: relative;
+}
+
+.makeCenter
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
