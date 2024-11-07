@@ -1,3 +1,6 @@
+var sound = new Audio("sparkle.mp3");
+sound.play();
+
 function addWebsite()
 {
     const newFrame = document.createElement("iframe");
