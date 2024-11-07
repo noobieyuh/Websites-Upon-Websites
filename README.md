@@ -8,4 +8,5 @@ Websites Upon Websites is exactly as it sounds. There's websites on websites (so
 ## How can I try this awesome creation?
 You can check it out / try it here: https://noobieyuh.github.io/Websites-Upon-Websites/
 
-
+## Thanks
+Thanks for checking out my project, it's not the best, but it's something :D
