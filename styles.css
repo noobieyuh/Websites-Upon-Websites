@@ -31,6 +31,7 @@ p
     background-color: pink;
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: opacity 0.2s, background-color 2s;
 }
 
 .musicButton
@@ -42,6 +43,19 @@ p
     background-color:lightcoral;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: opacity 0.2s, background-color 2s;
+}
+
+button:hover 
+{
+    background-color: salmon;
+    color: white;
+    opacity: 0.8;
+}
+
+button:active 
+{
+    opacity: 0.5;
 }
 
 iframe
