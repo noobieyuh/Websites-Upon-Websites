@@ -79,3 +79,14 @@ iframe
     transform: translate(-50%, -50%);
 }
 
+a
+{
+    color:beige;
+    font-size: 26px;
+}
+
+a:hover
+{
+    color:darksalmon;
+}
+
