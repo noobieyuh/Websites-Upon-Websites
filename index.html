@@ -7,7 +7,7 @@
     <link rel = "stylesheet" href = "styles.css">
     <link rel = "icon" type = "image/x-icon" href = "favicon.png">
 </head>
-<body style = "background-color:thistle;">
+<body style = "background-color:thistle; background-image: url('background.jpg');">
     <h1 class = "titlePage"><u>Websites Upon Websites...?</u></h1>
     <div class = "container">
         <div class = "makeCenter">
@@ -22,20 +22,18 @@
     <p>(Just learned that iframes can't have a lot of iframes... I think...)</p>
     <p>( The website still works just not as well as I hoped :C )</p>
     <p>(I hope you have some fun with this website :D)</p>
-    <p>mwahahahahaha</p>
+    <p>mwahahahahaha (best experience in full screen)</p>
     <script src = "index.js"></script>
     <div class = "container">
         <div class = "makeCenter">
-            <button onclick = "addWebsite(), counter()">Interact with me to make a new website! (Spam me, a sound effect will play)</button>
+            <button onclick = "addWebsite(), counter(), newWebsiteSound()" class = "newWebsiteButton">Interact with me to make a new website! (Spam me, a sound effect will play)</button>
         </div>
     </div>
     <p>Number of websites (iframes): <a id = "numCount">0</a></p>
     <p>vvv Music (Boba Date from Stream Cafe) vvv</p>
     <div class = "container">
         <div class = "makeCenter">
-            <audio controls loop>
-                <source src = "background.mp3" type = "audio/mp3">
-            </audio>
+            <button onclick = "playMusic()" class = "musicButton">Click for Background Music!</button>
         </div>
     </div>
 </body>
